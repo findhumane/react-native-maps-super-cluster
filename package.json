@@ -1,16 +1,14 @@
 {
-  "name": "react-native-maps-super-cluster",
-  "version": "1.6.0",
+  "name": "react-native-maps-super-cluster-fh",
+  "version": "1.6.1",
   "description": "A Clustering-enabled map for React Native",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build",
-    "build": "echo \"Built\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novalabio/react-native-maps-super-cluster.git"
+    "url": "git+https://github.com/findhumane/react-native-maps-super-cluster.git"
   },
   "keywords": [
     "react",
@@ -30,15 +28,15 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/novalabio/react-native-maps-super-cluster/issues"
+    "url": "https://github.com/findhumane/react-native-maps-super-cluster/issues"
   },
-  "homepage": "https://github.com/novalabio/react-native-maps-super-cluster#readme",
+  "homepage": "https://github.com/findhumane/react-native-maps-super-cluster#readme",
   "dependencies": {
-    "@mapbox/geo-viewport": "^0.4.0",
-    "supercluster": "^6.0.2"
+    "@mapbox/geo-viewport": "^0.5.0",
+    "supercluster": "^7.1.5"
   },
   "peerDependencies": {
     "prop-types": "15.7.2",
-    "react-native-maps": "^0.31.1"
+    "react-native-maps": "^0.31.0"
   }
 }
