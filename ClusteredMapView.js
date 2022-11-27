@@ -54,7 +54,13 @@ export default class ClusteredMapView extends React.PureComponent {
 
   constructor(props) {
     super(props);
-
+    this.state = {
+      prevRegion: null,
+      prevDataPros: null,
+      index: null,
+      data: null,
+      region: null,
+    };
     this.mapview = React.createRef();
   }
 
