@@ -1,6 +1,6 @@
 {
   "name": "react-native-maps-super-cluster-fh",
-  "version": "1.6.2",
+  "version": "1.6.5",
   "description": "A Clustering-enabled map for React Native",
   "main": "index.js",
   "scripts": {
